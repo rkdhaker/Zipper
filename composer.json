@@ -1,9 +1,8 @@
 {
-    "name": "chumper/zipper",
+    "name": "rkdhaker/zipper",
     "type": "library",
     "description": "This is a little neat helper for the ZipArchive methods with handy functions",
     "keywords": ["laravel", "ZIP", "Archive"],
-    "homepage": "http://github.com/Chumper/zipper",
     "license": "Apache2",
     "authors": [
         {
@@ -11,26 +10,32 @@
             "email": "github@nilsplaschke.de",
             "homepage": "http://nilsplaschke.de",
             "role": "Developer"
+        },
+        {
+            "name": "Ravi Kumar Dhaker",
+            "email": "rkdhaker000@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.6.0",
+        "php": ">=7.4",
         "ext-zip": "*",
-        "illuminate/support": "^5.0",
-        "illuminate/filesystem": "^5.0"
+        "illuminate/support": ">=8.0",
+        "illuminate/filesystem": "^9.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "mockery/mockery": "^0.9.4"
+        "phpunit/phpunit": "~9.0",
+        "mockery/mockery": "^1.4.4"
     },
     "autoload": {
         "psr-4": {
-            "Chumper\\Zipper\\": "src/Chumper/Zipper"
+            "Rkdhaker\\Zipper\\": "src/",
+            "Tests\\": "tests/ZipperTest.php"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chumper\\Zipper\\": "tests/"
+            "Rkdhaker\\Zipper\\": "tests/"
         }
     },
     "config": {
@@ -39,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Chumper\\Zipper\\ZipperServiceProvider"
+                "Rkdhaker\\Zipper\\ZipperServiceProvider"
             ],
             "aliases": {
-                "Zipper": "Chumper\\Zipper\\Zipper"
+                "Zipper": "Rkdhhaker\\Zipper\\Zipper"
             }
         }
     },
