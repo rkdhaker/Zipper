@@ -45,8 +45,10 @@
         "laravel": {
             "providers": [
                 "Rkdhaker\\Zipper\\Chumper\\Zipper\\ZipperServiceProvider"
-            ]
-            
+            ],
+            "aliases": {
+                "Zipper": "Rkdhhaker\\Zipper\\Chumper\\Zipper\\Facades\\Zipper"
+            }
         }
     },
     "minimum-stability": "dev",
