@@ -1,6 +1,6 @@
 <?php
 
-namespace Chumper\Zipper;
+namespace Rkdhaker\Chumper\Chumper\Zipper;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;

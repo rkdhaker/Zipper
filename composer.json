@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Chumper\\Zipper\\ZipperServiceProvider"
+                "Rkdhaker\\Chumper\\Zipper\\ZipperServiceProvider"
             ],
             "aliases": {
                 "Zipper": "Rkdhhaker\\Zipper\\Chumper\\Zipper\\Facades\\Zipper"
